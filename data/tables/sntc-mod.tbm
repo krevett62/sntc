@@ -1,0 +1,26 @@
+#GAME SETTINGS
+$Minimum version:
++Major: 3
++Minor: 7
++Build: 4
+
+#CAMPAIGN SETTINGS
+$Default Campaign File Name: sntc
+#Ignored Campaign File Names
+$Campaign File Name: Freespace
+$Campaign File Name: Freespace2
+$Campaign File Name: SilentThreat
+$Campaign File Name: FS1Templar
+
+$Red-alert applies to delayed ships:	YES
+
+#HUD SETTINGS
+$Directive Wait Time:			2500
+$Cutscene camera displays HUD:		NO
+
+#OTHER SETTINGS
+$Fixed Turret Collisions:		YES
+$Damage Impacted Subsystem First:	YES
+$Beams Use Damage Factors:		YES
+
+#End

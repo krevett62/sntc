@@ -1,0 +1,11 @@
+#AI Profiles
+
+$Default Profile: FS1 RETAIL
+
+$Profile Name: FS1 RETAIL
+$shockwaves damage small ship subsystems: 					YES
+$ignore lower bound for minimum speed of docked ship: 		YES
+$fix AI class bug:											YES
+$aspect bomb invulnerability fix:							YES
+
+#End

@@ -1,0 +1,18 @@
+$Name: sntc
+$Type: single
+$Flags: 1
+
+
++Starting Ships: ( "GTF Apollo" )
+
++Starting Weapons: ( "ML-16 Laser"  "Disruptor"  "MX-50"  "Fury" )
+
+
+$Mission: EmptyMission.fs2
++Flags: 0
++Main Hall: 0
+
++Level: 0
++Position: 0
+
+#End

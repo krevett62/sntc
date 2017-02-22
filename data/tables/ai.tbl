@@ -1,0 +1,212 @@
+#AI Classes
+
+$Name:				None
+$accuracy:			0,		0,		0,		0,		0
+$evasion:			0,		0,		0,		0,		0
+$courage:			0,		0,		0,		0,		0
+$patience:			0,		0,		0,		0,		0
+
+$Name:				Coward
+$accuracy:			0.10,	0.15,	0.20,	0.25,	0.30
+$evasion:			50,		55,		60,		65,		70
+$courage:			5,		10,		15,		20,		25
+$patience:			5,		10,		15,		20,		25
+$Afterburner Use Factor: 					3, 		3, 		2, 		2, 		1
+$Shockwave Evade Chances Per Second: 		2, 		2, 		3, 		3, 		4
+$Get Away Chance:							1,		1,		1,		1,		1
+$Secondary Range Multiplier:				0.50,	0.55,	0.60,	0.65,	0.70
+$Autoscale by AI Class Index: 				NO
+$AI Countermeasure Firing Chance: 			0.10,	0.15,	0.20,	0.25,	0.30
+$AI In Range Time: 							2.6, 	2.4, 	2.2, 	2.0, 	1.8
+$AI Always Links Ammo Weapons: 				90.0, 	85.0, 	80.0, 	75.0, 	70.0
+$AI Maybe Links Ammo Weapons: 				80.0, 	75.0, 	70.0, 	65.0, 	60.0
+$Primary Ammo Burst Multiplier: 			0.10,	0.15,	0.20,	0.25,	0.30
+$AI Always Links Energy Weapons: 			90.0, 	85.0, 	80.0, 	75.0, 	70.0
+$AI Maybe Links Energy Weapons: 			80.0, 	75.0, 	70.0, 	65.0, 	60.0
+$AI Shield Manage Delay: 					1.4, 	1.3, 	1.2, 	1.1, 	1.0
+$Friendly AI Fire Delay Scale: 				1.0, 	1.0, 	1.0, 	1.0, 	1.0
+$Hostile AI Fire Delay Scale: 				1.5, 	1.4, 	1.3, 	1.2, 	1.0
+$AI Turn Time Scale: 						1.8, 	1.4, 	1.25, 	1.1, 	1.0
+$Glide Attack Percent: 						10,		15,		20,		25,		30
+$Circle Strafe Percent: 					10,		15,		20,		25,		30
+$Glide Strafe Percent: 						10,		15,		20,		25,		30
+$Random Sidethrust Percent:					10,		15,		20,		25,		30
+$Chance AI Has to Fire Missiles at Player: 	1, 		1, 		1, 		2, 		2
+$Max Aim Update Delay: 						0.34, 	0.32, 	0.30, 	0.28, 	0.26
+$Turret Max Aim Update Delay:				0.36, 	0.34, 	0.32, 	0.30, 	0.28
+
+$Name:				Recruit
+$accuracy:			0.15,	0.20,	0.25,	0.30,	0.35
+$evasion:			10,		15,		20,		25,		30
+$courage:			10,		15,		20,		25,		30
+$patience:			10,		15,		20,		25,		30
+$Afterburner Use Factor: 					5, 		5, 		4, 		4, 		4
+$Shockwave Evade Chances Per Second: 		1, 		1, 		1, 		1, 		1
+$Get Away Chance:							0.6,	0.6,	0.6,	0.6,	0.6
+$Secondary Range Multiplier:				0.70,	0.75,	0.80,	0.85,	0.90
+$Autoscale by AI Class Index: 				NO
+$AI Countermeasure Firing Chance: 			0.15,	0.20,	0.25,	0.30,	0.35
+$AI In Range Time: 							2.4, 	2.2, 	2.0, 	1.8, 	1.6
+$AI Always Links Ammo Weapons: 				80.0, 	75.0, 	70.0, 	65.0, 	60.0
+$AI Maybe Links Ammo Weapons: 				70.0, 	65.0, 	60.0, 	55.0, 	50.0
+$Primary Ammo Burst Multiplier: 			0.15,	0.20,	0.25,	0.30,	0.35
+$AI Always Links Energy Weapons: 			80.0, 	75.0, 	70.0, 	65.0, 	60.0
+$AI Maybe Links Energy Weapons: 			70.0, 	65.0, 	60.0, 	55.0, 	50.0
+$AI Shield Manage Delay: 					1.3, 	1.2, 	1.1, 	1.0, 	0.9
+$Friendly AI Fire Delay Scale: 				1.0, 	1.0, 	1.0, 	1.0, 	1.0
+$Hostile AI Fire Delay Scale: 				1.45, 	1.35, 	1.25, 	1.15, 	1.0
+$AI Turn Time Scale: 						1.7, 	1.35, 	1.2, 	1.05, 	1.0
+$Glide Attack Percent: 						15,		20,		25,		30,		35
+$Circle Strafe Percent: 					15,		20,		25,		30,		35
+$Glide Strafe Percent: 						15,		20,		25,		30,		35
+$Random Sidethrust Percent:					15,		20,		25,		30,		35
+$Chance AI Has to Fire Missiles at Player: 	1, 		1, 		2, 		2, 		3
+$Max Aim Update Delay: 						0.30, 	0.28, 	0.26, 	0.24, 	0.22
+$Turret Max Aim Update Delay:				0.32, 	0.30, 	0.28, 	0.26, 	0.24
+
+$Name:				Lieutenant
+$accuracy:			0.20,	0.25,	0.30,	0.35,	0.40
+$evasion:			20,		25,		30,		35,		40
+$courage:			20,		25,		30,		35,		40
+$patience:			20,		25,		30,		35,		40
+$Afterburner Use Factor: 					4, 		4, 		3, 		3, 		3
+$Shockwave Evade Chances Per Second: 		1, 		1, 		2, 		2, 		2
+$Get Away Chance:							0.5,	0.5,	0.5,	0.5,	0.5
+$Secondary Range Multiplier:				0.75,	0.80,	0.85,	0.90,	0.95
+$Autoscale by AI Class Index: 				NO
+$AI Countermeasure Firing Chance: 			0.20,	0.25,	0.30,	0.35,	0.40
+$AI In Range Time: 							2.2, 	2.0, 	1.8, 	1.6, 	1.4
+$AI Always Links Ammo Weapons: 				70.0, 	65.0, 	60.0, 	55.0, 	50.0
+$AI Maybe Links Ammo Weapons: 				60.0, 	55.0, 	50.0, 	45.0, 	40.0
+$Primary Ammo Burst Multiplier: 			0.20,	0.25,	0.30,	0.35,	0.40
+$AI Always Links Energy Weapons: 			70.0, 	65.0, 	60.0, 	55.0, 	50.0
+$AI Maybe Links Energy Weapons: 			60.0, 	55.0, 	50.0, 	45.0, 	40.0
+$AI Shield Manage Delay: 					1.2, 	1.1, 	1.0, 	0.9, 	0.8
+$Friendly AI Fire Delay Scale: 				1.0, 	1.0, 	1.0, 	1.0, 	1.0
+$Hostile AI Fire Delay Scale: 				1.4, 	1.3, 	1.2, 	1.1, 	1.0
+$AI Turn Time Scale: 						1.6, 	1.3, 	1.15, 	1.0, 	1.0
+$Glide Attack Percent: 						20,		25,		30,		35,		40
+$Circle Strafe Percent: 					20,		25,		30,		35,		40
+$Glide Strafe Percent: 						20,		25,		30,		35,		40
+$Random Sidethrust Percent:					20,		25,		30,		35,		40
+$Chance AI Has to Fire Missiles at Player: 	1, 		2, 		2, 		3, 		3
+$Max Aim Update Delay: 						0.26, 	0.24, 	0.22, 	0.20, 	0.18
+$Turret Max Aim Update Delay:				0.28, 	0.26, 	0.24, 	0.22, 	0.20
+
+$Name:				Captain
+$accuracy:			0.30,	0.35,	0.40,	0.45,	0.50
+$evasion:			30,		35,		40,		45,		50
+$courage:			30,		35,		40,		45,		50
+$patience:			30,		35,		40,		45,		50
+$Afterburner Use Factor: 					4, 		3, 		3, 		2, 		2
+$Shockwave Evade Chances Per Second: 		2, 		2, 		2, 		3, 		3
+$Get Away Chance:							0.4,	0.4,	0.4,	0.4,	0.4
+$Secondary Range Multiplier:				0.80,	0.85,	0.90,	0.95,	1.0
+$Autoscale by AI Class Index: 				NO
+$AI Countermeasure Firing Chance: 			0.25,	0.30,	0.35,	0.40,	0.45
+$AI In Range Time: 							2.0, 	1.8, 	1.6, 	1.4, 	1.2
+$AI Always Links Ammo Weapons: 				60.0, 	55.0, 	50.0, 	45.0, 	40.0
+$AI Maybe Links Ammo Weapons: 				50.0, 	45.0, 	40.0, 	35.0, 	30.0
+$Primary Ammo Burst Multiplier: 			0.25,	0.30,	0.35,	0.40,	0.45
+$AI Always Links Energy Weapons: 			60.0, 	55.0, 	50.0, 	45.0, 	40.0
+$AI Maybe Links Energy Weapons: 			50.0, 	45.0, 	40.0, 	35.0, 	30.0
+$AI Shield Manage Delay: 					1.1, 	1.0, 	0.9, 	0.8, 	0.7
+$Friendly AI Fire Delay Scale: 				1.0, 	1.0, 	1.0, 	1.0, 	1.0
+$Hostile AI Fire Delay Scale: 				1.35, 	1.25, 	1.15, 	1.05, 	1.0
+$AI Turn Time Scale: 						1.5, 	1.25, 	1.1, 	1.0, 	1.0
+$Glide Attack Percent: 						25,		30,		35,		40,		45
+$Circle Strafe Percent: 					25,		30,		35,		40,		45
+$Glide Strafe Percent: 						25,		30,		35,		40,		45
+$Random Sidethrust Percent:					25,		30,		35,		40,		45
+$Chance AI Has to Fire Missiles at Player: 	2, 		2, 		3, 		3, 		4
+$Max Aim Update Delay: 						0.22, 	0.20, 	0.18, 	0.16, 	0.14
+$Turret Max Aim Update Delay:				0.24, 	0.22, 	0.20, 	0.18, 	0.16
+
+$Name:				Major
+$accuracy:			0.40,	0.45,	0.50,	0.55,	0.60
+$evasion:			40,		45,		50,		55,		60
+$courage:			40,		45,		50,		55,		60
+$patience:			40,		45,		50,		55,		60
+$Afterburner Use Factor: 					3, 		3, 		2, 		2, 		1
+$Shockwave Evade Chances Per Second: 		3, 		3, 		3, 		3, 		3
+$Get Away Chance:							0.3,	0.3,	0.3,	0.3,	0.3
+$Secondary Range Multiplier:				0.85,	0.90,	0.95,	1.0,	1.0
+$Autoscale by AI Class Index: 				NO
+$AI Countermeasure Firing Chance: 			0.30,	0.35,	0.40,	0.45,	0.50
+$AI In Range Time: 							1.6, 	1.4, 	1.2, 	1.0, 	0.8
+$AI Always Links Ammo Weapons: 				50.0, 	45.0, 	40.0, 	35.0, 	30.0
+$AI Maybe Links Ammo Weapons: 				40.0, 	35.0, 	30.0, 	25.0, 	20.0
+$Primary Ammo Burst Multiplier: 			0.30,	0.35,	0.40,	0.45,	0.50
+$AI Always Links Energy Weapons: 			50.0, 	45.0, 	40.0, 	35.0, 	30.0
+$AI Maybe Links Energy Weapons: 			40.0, 	35.0, 	30.0, 	25.0, 	20.0
+$AI Shield Manage Delay: 					0.9, 	0.8, 	0.7, 	0.6, 	0.5
+$Friendly AI Fire Delay Scale: 				1.0, 	1.0, 	1.0, 	1.0, 	1.0
+$Hostile AI Fire Delay Scale: 				1.3, 	1.2, 	1.1, 	1.0, 	1.0
+$AI Turn Time Scale: 						1.4, 	1.2, 	1.0, 	1.0, 	1.0
+$Glide Attack Percent: 						30,		35,		40,		45,		50
+$Circle Strafe Percent: 					30,		35,		40,		45,		50
+$Glide Strafe Percent: 						30,		35,		40,		45,		50
+$Random Sidethrust Percent:					30,		35,		40,		45,		50
+$Chance AI Has to Fire Missiles at Player: 	2, 		3, 		3, 		4, 		4
+$Max Aim Update Delay: 						0.18, 	0.16, 	0.14, 	0.12, 	0.10
+$Turret Max Aim Update Delay:				0.20, 	0.18, 	0.16, 	0.14, 	0.12
+
+$Name:				Colonel
+$accuracy:			0.50,	0.55,	0.60,	0.65,	0.70
+$evasion:			50,		55,		60,		65,		70
+$courage:			50,		55,		60,		65,		70
+$patience:			50,		55,		60,		65,		70
+$Afterburner Use Factor: 					2, 		2, 		2, 		1, 		1
+$Shockwave Evade Chances Per Second: 		4, 		4, 		4, 		4, 		4
+$Get Away Chance:							0.2,	0.2,	0.2,	0.2,	0.2
+$Secondary Range Multiplier:				0.90,	0.95,	1.0,	1.0,	1.0
+$Autoscale by AI Class Index: 				NO
+$AI Countermeasure Firing Chance: 			0.40,	0.45,	0.50,	0.55,	0.60
+$AI In Range Time: 							1.2, 	1.0, 	0.8, 	0.6, 	0.4
+$AI Always Links Ammo Weapons: 				45.0, 	40.0, 	35.0, 	30.0, 	25.0
+$AI Maybe Links Ammo Weapons: 				35.0, 	30.0, 	25.0, 	20.0, 	15.0
+$Primary Ammo Burst Multiplier: 			0.40,	0.45,	0.50,	0.55,	0.60
+$AI Always Links Energy Weapons: 			40.0, 	35.0, 	30.0, 	25.0, 	20.0
+$AI Maybe Links Energy Weapons: 			30.0, 	25.0, 	20.0, 	15.0, 	10.0
+$AI Shield Manage Delay: 					0.7, 	0.6, 	0.5, 	0.4, 	0.3
+$Friendly AI Fire Delay Scale: 				1.0, 	1.0, 	1.0, 	1.0, 	1.0
+$Hostile AI Fire Delay Scale: 				1.25, 	1.15, 	1.05, 	1.0, 	1.0
+$AI Turn Time Scale: 						1.3, 	1.15, 	1.0, 	1.0, 	1.0
+$Glide Attack Percent: 						40,		45,		50,		55,		60
+$Circle Strafe Percent: 					40,		45,		50,		55,		60
+$Glide Strafe Percent: 						40,		45,		50,		55,		60
+$Random Sidethrust Percent:					40,		45,		50,		55,		60
+$Chance AI Has to Fire Missiles at Player: 	3, 		3, 		4, 		4, 		5
+$Max Aim Update Delay: 						0.14, 	0.12, 	0.10, 	0.08, 	0.06
+$Turret Max Aim Update Delay:				0.16, 	0.14, 	0.12, 	0.10, 	0.08
+
+$Name:				General
+$accuracy:			0.60,	0.65,	0.70,	0.75,	0.80
+$evasion:			60,		65,		70,		75,		80
+$courage:			60,		65,		70,		75,		80
+$patience:			60,		65,		70,		75,		80
+$Afterburner Use Factor: 					1, 		1, 		1, 		1, 		1
+$Shockwave Evade Chances Per Second: 		5, 		5, 		5, 		6, 		6
+$Get Away Chance:							0.1,	0.1,	0.1,	0.1,	0.1
+$Secondary Range Multiplier:				0.95,	1.0,	1.0,	1.0,	1.0
+$Autoscale by AI Class Index: 				NO
+$AI Countermeasure Firing Chance: 			0.50,	0.55,	0.60,	0.65,	0.70
+$AI In Range Time: 							0.8, 	0.6, 	0.4, 	0.2, 	0
+$AI Always Links Ammo Weapons: 				40.0, 	35.0, 	30.0, 	25.0, 	20.0
+$AI Maybe Links Ammo Weapons: 				30.0, 	25.0, 	20.0, 	15.0, 	10.0
+$Primary Ammo Burst Multiplier: 			0.50,	0.55,	0.60,	0.65,	0.70
+$AI Always Links Energy Weapons: 			30.0, 	25.0, 	20.0, 	15.0, 	10.0
+$AI Maybe Links Energy Weapons: 			20.0, 	15.0, 	10.0, 	5.0, 	0.0
+$AI Shield Manage Delay: 					0.5, 	0.4, 	0.3, 	0.2, 	0.1
+$Friendly AI Fire Delay Scale: 				1.0, 	1.0, 	1.0, 	1.0, 	1.0
+$Hostile AI Fire Delay Scale: 				1.2, 	1.1, 	1.0, 	1.0, 	1.0
+$AI Turn Time Scale: 						1.2, 	1.1, 	1.0, 	1.0, 	1.0
+$Glide Attack Percent: 						50,		55,		60,		65,		70
+$Circle Strafe Percent: 					50,		55,		60,		65,		70
+$Glide Strafe Percent: 						50,		55,		60,		65,		70
+$Random Sidethrust Percent:					50,		55,		60,		65,		70
+$Chance AI Has to Fire Missiles at Player: 	3, 		4, 		4, 		5, 		5
+$Max Aim Update Delay: 						0.10, 	0.08, 	0.06, 	0.04, 	0.02
+$Turret Max Aim Update Delay:				0.12, 	0.10, 	0.08, 	0.06, 	0.04
+
+#End

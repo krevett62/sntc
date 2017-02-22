@@ -1,0 +1,11 @@
+#Game Sounds Start
+
+$Name: gtb_old
+	+Filename: gtb_old.wav
+	+Preload: Yes
+	+Volume: 0.70
+	+3D Sound:
+		+Attenuation Start: 300
+		+Attenuation End: 600
+
+#Game Sounds End

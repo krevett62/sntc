@@ -1,0 +1,106 @@
+$Num Resolutions:	1
+;; ----------------------------------------------------------------------------------------------------------------
+;; Galatea
+;;
+;; GR_1024
+$Main Hall
++Bitmap:			2_MVP_MainHall_Galatea_a
++Mask:				2_MVP_MainHall_Galatea-m
++Music:				Aquitaine
++Substitute Music:	FS1-Choco Mousse
++Help Overlay:		main-mvp
+
++Num Intercom Sounds:	3
++Intercom delay:	8000 15000
++Intercom delay:	8000 15000
++Intercom delay:	8000 15000
++Intercom sound:	PA1
++Intercom sound:	PA2
++Intercom sound:	PA3
++Intercom pan:		0.0
++Intercom pan:		0.0
++Intercom pan:		0.0
+
++Num Misc Animations:	6
++Misc anim:		2_gal-m1a-a
++Misc anim:		2_gal-m1a-b
++Misc anim:		2_gal-m1a-a
++Misc anim:		2_gal-m1a-b
++Misc anim:		2_gal-m1a-c
++Misc anim:		2_gal-m2a-a
++Misc anim group:	1
++Misc anim group:	1
++Misc anim group:	1
++Misc anim group:	1
++Misc anim group:	1
++Misc anim group:	-1
++Misc anim delay:	-1 0 0
++Misc anim delay:	-1 0 0
++Misc anim delay:	-1 0 0
++Misc anim delay:	-1 0 0
++Misc anim delay:	-1 0 0
++Misc anim delay:	-1 20000 90000
++Misc anim coords:	0 0
++Misc anim coords:	0 0
++Misc anim coords:	0 0
++Misc anim coords:	0 0
++Misc anim coords:	0 0
++Misc anim coords:	263 255
++Misc anim mode:	2
++Misc anim mode:	2
++Misc anim mode:	2
++Misc anim mode:	2
++Misc anim mode:	2
++Misc anim mode:	2
++Misc anim pan:		-0.5
++Misc anim pan:		-0.5
++Misc anim pan:		-0.5
++Misc anim pan:		-0.5
++Misc anim pan:		-0.5
++Misc anim pan:		-0.25
++Misc anim sounds:	3 Empty Welding01 Welding02
++Misc anim sounds:	5 Empty Welding03 Welding04 Welding05 Welding06
++Misc anim sounds:	3 Empty Welding01 Welding02
++Misc anim sounds:	5 Empty Welding03 Welding04 Welding05 Welding06
++Misc anim sounds:	3 Empty Drilling01 Drilling02
++Misc anim sounds:	3 SmallElevDown SwitchThing SmallElevUp
++Misc anim trigger:	3 0 1 37
++Misc anim trigger:	5 0 19 79 119 179
++Misc anim trigger:	3 0 1 37
++Misc anim trigger:	5 0 19 79 119 179
++Misc anim trigger:	3 0 130 245
++Misc anim trigger:	3 25 200 297
+
++Num Door Animations:	7
++Door anim:		2_gal-d1
++Door anim:		2_gal-d6
++Door anim:		2_gal-d3
++Door anim:		2_gal-d4
++Door anim:		2_gal-d5
++Door anim:		2_gal-d2
++Door anim:		2_gal-d7
++Door coords:		0 368 177 412
++Door coords:		433 0 519 65
++Door coords:		440 357 581 410
++Door coords:		749 0 897 155
++Door coords:		803 277 945 457
++Door coords:		451 176 559 250
++Door coords:		0 368 73 413
++Door sounds:		SldDrOpen SldDrClose
++Door sounds:		SldDrOpen SldDrClose
++Door sounds:		SldDrOpen SldDrClose
++Door sounds:		TechRmSpec Empty
++Door sounds:		ScreenOn Empty
++Door sounds:		SldDrOpen SldDrClose
++Door sounds:		SldDrOpen SldDrClose
++Door pan:		-0.7
++Door pan:		0.02
++Door pan:		0.03
++Door pan:		0.73
++Door pan:		0.75
++Door pan:		0.05
++Door pan:		-0.7
+
++Tooltip Y:		755
+
+#End

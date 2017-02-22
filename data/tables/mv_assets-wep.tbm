@@ -1,0 +1,268 @@
+#Primary Weapons
+
+$Name:			@Subach HL-7
++nocreate
+$Tech Model: wep_subach_tech.pof
+
+$Name:			@Mekhu HL-7
++nocreate
+$Tech Model: wep_mekhu_tech.pof
+$Icon:		iconmd4
+$Anim: 		md4
+
+$Name:		@Mekhu HL-7D
++nocreate
+$Icon:		iconmd4
+$Anim: 		md4
+
+$Name:			@Akheton SDG
++nocreate
+$Tech Model: wep_akheton_tech.pof
+
+$Name:			@Morning Star
++nocreate
+$Tech Model: wep_morningstar_tech.pof
+
+$Name:			Prometheus R
++nocreate
+$Tech Model: wep_promr_tech.pof
+
+$Name:			Prometheus S
++nocreate
+$Tech Model: wep_proms_tech.pof
+
+$Name:			Maxim
++nocreate
+$Tech Model: wep_maxim_tech.pof
+
+$Name:			UD-8 Kayser
++nocreate
+$Tech Model: wep_kayser_tech.pof
+
+$Name:			Circe
++nocreate
+$Tech Model: wep_circe_tech.pof
+
+$Name:			Lamprey
++nocreate
+$Tech Model: wep_lamprey_tech.pof
+
+
+#End
+
+#Secondary Weapons
+
+$Name:			@Rockeye
++nocreate
+$Tech Model:		rockeye-tech.pof
+$Detail distance:	( 0, 6, 25 )
+
+$Name:			@Rockeye D
++nocreate
+$Tech Model:		rockeye-tech.pof
+$Detail distance:	( 0, 6, 25 )
+
+$Name:			Enemy MX-64
++nocreate
+$Detail distance:	( 0, 6, 25 )
+
+
+$Name:			@Tempest
++nocreate
+$Tech Model:		tempest_tech.pof
+$Detail distance:	( 0, 3, 11 )
+
+$Name:			@Tempest D
++nocreate
+$Tech Model:		tempest_tech.pof
+$Detail distance:	( 0, 3, 11 )
+
+
+$Name:			@Hornet
++nocreate
+$Tech Model:		newhornet_tech.pof
+$Detail distance:	( 0, 3, 11 )
+
+$Name:			@Hornet D
++nocreate
+$Tech Model:		newhornet_tech.pof
+$Detail distance:	( 0, 3, 11 )
+
+$Name:			@Hornet#Weak
++nocreate
+$Tech Model:		newhornet_tech.pof
+$Detail distance:	( 0, 3, 11 )
+
+
+$Name:			@Tornado
++nocreate
+$Tech Model:		bombardier-tech.pof
+$Detail distance:	( 0, 3, 12 )
+
+$Name:			@Tornado D
++nocreate
+$Tech Model:		bombardier-tech.pof
+$Detail distance:	( 0, 3, 12 )
+
+
+$Name:			Harpoon
++nocreate
+$Tech Model:		crossbow_tech.pof
+$Detail distance:	( 0, 5, 21 )
+
+$Name:			Harpoon D
++nocreate
+$Tech Model:		crossbow_tech.pof
+$Detail distance:	( 0, 5, 21 )
+
+$Name:			Harpoon#Weak
++nocreate
+$Tech Model:		crossbow_tech.pof
+$Detail distance:	( 0, 5, 21 )
+
+
+$Name:			@Trebuchet
++nocreate
+$Tech Model:		trebuchet-tech.pof
+$Detail distance:	( 0, 7, 29 )
+
+
+$Name:			@Tag-A
++nocreate
+$Tech Model:		tag-a-tech.pof
+$Model File:		tag-a.pof
+$Detail distance:	( 0, 6, 24 )
+
+
+$Name:			@Tag-B
++nocreate
+$Tech Model:		tag-b-tech.pof
+$Model File:		tag-b.pof
+$Detail distance:	( 0, 10, 40 )
+
+
+$Name:			@Tag-C
++nocreate
+$Tech Model:		tag-c-tech.pof
+$Model File:		tag-c.pof
+$Detail distance:	( 0, 10, 39 )
+
+
+$Name:			Piranha
++nocreate
+$Tech Model:		piranha_tech.pof
+$Detail distance:	( 0, 7, 28 )
+
+
+$Name:			@Stiletto II
++nocreate
+$Tech Model:		stilettoII_tech.pof
+$POF target LOD:	0
+$Detail distance:	( 0, 8, 32 )
+
+
+$Name:			Infyrno
++nocreate
+$Tech Model:		infyrno-tech.pof
+$POF target LOD:	0
+$Detail distance:	( 0, 3, 13 )
+
+$Name:			Infyrno D
++nocreate
+$Tech Model:		infyrno-tech.pof
+$POF target LOD:	0
+$Detail distance:	( 0, 3, 13 )
+
+
+$Name:			Cyclops
++nocreate
+$Tech Model:		cyclops-tech.pof
+$Model File:		cyclops.pof
+$POF target LOD:	0
+
+$Name:			Cyclops#Short
++nocreate
+$Tech Model:		cyclops-tech.pof
+$Model File:		cyclops.pof
+$POF target LOD:	0
+
+
+$Name:			Rebel Bomb
++nocreate
+$POF target LOD:	0
+$Detail distance:	( 0, 10, 39 )
+
+
+$Name:			Helios
++nocreate
+$Tech Model:		helios_tech.pof
+$POF target LOD:	0
+$Detail distance:	( 0, 20, 39, 78 )
+
+
+$Name:			EMP Adv.
++nocreate
+$Tech Model:		empulse2_tech.pof
+
+
+$Name:			MX-52
++nocreate
+$Detail distance:	( 0, 6, 23 )
+
+
+$Name:			Unknown Bomb
++nocreate
+$POF target LOD:	0
+$Detail distance:	( 0, 10, 39 )
+
+
+$Name:			Unknown Megabomb
++nocreate
+$POF target LOD:	0
+$Detail distance:	( 0, 10, 40 )
+
+
+$Name:			@Fusion Mortar
++nocreate
+$POF target LOD:	0
+$Detail distance:	( 0, 10, 40 )
+
+
+$Name:			Vasudan Flux Cannon
++nocreate
+$Detail distance:	( 0, 10, 39 )
+
+
+$Name:			Shivan Cluster
++nocreate
+$Model File:		ShivanCluster.pof
+$POF target LOD:	0
+$Detail distance:	( 0, 7, 28 )
+$Flags:				( "Big Ship" "Spawn S_Cluster Baby Weak,8" "Bomb" "Remote Detonate" )
+
+
+$Name:			FighterKiller
++nocreate
+$Detail distance:	( 0, 6, 13, 26 )
+
+
+$Name:			Swarmer
++nocreate
+$Detail distance:	( 0, 3, 6, 11 )
+
+
+$Name:			Cluster Baby
++nocreate
+$Detail distance:	( 0, 3, 11 )
+
+
+$Name:			Cluster Baby Weak
++nocreate
+$Detail distance:	( 0, 6, 23 )
+
+
+$Name:			Cluster Bomb Baby
++nocreate
+$Detail distance:	( 0, 3, 11 )
+
+#End

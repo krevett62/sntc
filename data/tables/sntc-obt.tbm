@@ -1,0 +1,99 @@
+#Target Priorities
+$Name: bombs
+	+Weapon Class Flags: ( "bomb" )
+$Name: asteroids
+	+Object Type: asteroid
+$Name: weapons
+	+Object Type: weapon
+$Name: bombers
+$Name: fighters
+$Name: cruisers
+$Name: corvettes
+$Name: capitals
+$Name: super caps
+$Name: kamikazes
+$Name: ships
+	+Object Type: ship
+
+#End
+
+#Ship Types
+$Name:                  fighter
++nocreate
+	$Target Priority Groups: ( "fighters" )
+	$Turrets prioritize ship target: 	NO
+	$No Huge Beam Impact Effects:		YES
+
+$Name:                  bomber
++nocreate
+	$Target Priority Groups: ( "bombers" )
+	$Turrets prioritize ship target: 	NO
+	$No Huge Beam Impact Effects:		YES
+
+$Name:                  cruiser
++nocreate
+	$Target Priority Groups: ( "cruisers" )
+
+$Name:                  corvette
++nocreate
+	$Target Priority Groups: ( "corvettes" )
+
+$Name:                  capital
++nocreate
+	$Target Priority Groups: ( "capitals" )
+
+$Name:                  super cap
++nocreate
+	$Target Priority Groups: ( "super caps" )
+
+$Name:                  Kamikaze
+$Target Priority Groups: ( "kamikazes" )
+$Counts for Alone:      YES
+$Praise Destruction:    YES
+$On Hotkey List:        YES
+$Target as Threat:      YES
+$Show Attack Direction: YES
+$Warp Pushable:         YES
+$Max Debris Speed:      200
+$FF Multiplier:         1.0
+$EMP Multiplier:        4.0
+$Fog:
+   +Start dist:            10.0
+   +Compl dist:            500.0
+$AI:
+   +Valid goals:           (  "fly to ship"
+                              "attack ship"
+                              "attack wing"
+                              "dock"
+                              "waypoints"
+                              "waypoints once"
+                              "depart"
+                              "undock"
+                              "stay still"
+                              "play dead"
+                              "stay near ship" )
+   +Accept Player Orders:  YES
+   +Player Orders:         (  "attack ship"
+                              "depart" )
+   +Auto attacks:          YES
+   +Attempt Broadside:     YES
+   +Actively Pursues:      (  "fighter"
+			      "bomber"
+			      "transport"
+                              "freighter"
+                              "awacs"
+                              "gas miner"
+                              "cruiser"
+                              "corvette"
+                              "capital"
+                              "super cap"
+                              "drydock"
+                              "knossos device" )
+   +Guards attack this:    YES
+   +Turrets attack this:   YES
+   +Can Form Wing:         YES
+   +Active docks:          (  "cargo" )
+   +Passive docks:         (  "support" )
+$Vaporize Percent Chance: 0.0
+
+#End
